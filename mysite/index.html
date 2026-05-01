@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Website</title>
+<style>
+body{
+font-family:Arial;
+margin:0;
+padding:0;
+background:#111;
+color:white;
+text-align:center;
+}
+header{
+padding:30px;
+background:#ff6600;
+font-size:28px;
+font-weight:bold;
+}
+section{
+padding:40px;
+}
+button{
+padding:12px 25px;
+border:none;
+background:#ff6600;
+color:white;
+font-size:18px;
+border-radius:8px;
+cursor:pointer;
+}
+button:hover{
+background:#e65c00;
+}
+footer{
+padding:20px;
+background:#222;
+margin-top:30px;
+}
+</style>
+</head>
+<body>
+
+<header>Welcome To My Website</header>
+
+<section>
+<h1>Hello, I am Ashish</h1>
+<p>This is my first website made in Termux.</p>
+
+<button onclick="showMsg()">Click Me</button>
+<p id="demo"></p>
+</section>
+
+<footer>
+© 2026 My Website
+</footer>
+
+<script>
+function showMsg(){
+document.getElementById("demo").innerHTML="Thanks for visiting!";
+}
+</script>
+
+</body>
+</html>
+
